@@ -24,6 +24,7 @@
 
 html,
 body {
+    height: 150%;
     font-family: 'Poppins', sans-serif;
     background: url(../img/bg-img2.jpg);
     background-size: cover;
@@ -105,11 +106,23 @@ body {
     background-color: #0066ff;
 }
 
+.item img {
+    width: 430px;
+    height: 300px;
+}
+
 
 /* Responsive Style*/
 
 
 /*Mobile Phones Screen*/
+
+
+/* @media (max-width: 1000px) {
+    #main-home #banner-slider .container {
+        flex-direction: column;
+    }
+} */
 
 @media only screen and (max-width: 580px) {
     #main-home .header-top {
